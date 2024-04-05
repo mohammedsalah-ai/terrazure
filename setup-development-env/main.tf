@@ -11,6 +11,6 @@ provider "azurerm" {
   features {}
 }
 
-module "development-env" {
+module "development_env" {
     source = "./module"
 }
